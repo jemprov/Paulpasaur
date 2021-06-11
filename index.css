@@ -1,0 +1,81 @@
+
+body{
+  box-sizing: border-box;
+  background-color: #009bd6;
+}
+
+.sample{
+  background-image:  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)),url("./images/seattle.jpg");
+
+  
+}
+
+
+
+.bg-image{
+  background-position: center;
+  background-size: cover;
+  overflow: auto; 
+}
+
+
+h2{
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.flex{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.dh-25{
+  height: 25vh;
+}
+
+.dh-50{
+  height: 50vh;
+}
+
+.dh-75{
+  height: 75vh;
+}
+
+.dh-100{
+  height: 100vh;
+}
+
+.div-background{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0px;
+  width: 50%;
+
+
+  
+}
+
+.image-size{
+  height: auto;
+  width: 70%;
+}
+
+.h1-size{
+  font-size: 6rem;
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(255, 184, 0, 1);
+}
+
+.p-size{
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(255, 184, 0, 1);
+}
+
+.footer-p{
+  margin-left: 50px;
+}
