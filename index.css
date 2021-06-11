@@ -11,11 +11,10 @@ body{
 }
 
 
-
 .bg-image{
   background-position: center;
   background-size: cover;
-  overflow: auto; 
+  overflow: hidden; 
 }
 
 
@@ -58,9 +57,9 @@ h2{
   
 }
 
-.image-size{
+.img-fluid{
   height: auto;
-  width: 70%;
+  max-width: 75% !important;
 }
 
 .h1-size{
