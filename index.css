@@ -84,7 +84,11 @@ h2{
 }
 
 .p-padding{
-  padding: 0 15px;
+  padding: 0 2rem;
+}
+
+.h-padding{
+  padding: 0 2rem;
 }
 
 .footer-p{
