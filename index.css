@@ -1,11 +1,14 @@
 
 body{
   box-sizing: border-box;
-  background-color: #009bd6;
+  background-color: #4095ff;
 }
 
 .sample{
-  background-image:  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)),url("./images/seattle.jpg");
+  background-image:  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url("./images/seattle.jpg");
+  background-color: #009bd6;
+  background-color: #3971f9;
+  background-color: #0072ff;
 
   
 }
@@ -58,7 +61,7 @@ h2{
 }
 
 .img-fluid{
-  height: auto;
+  max-height: 100% !important;
   max-width: 75% !important;
 }
 
