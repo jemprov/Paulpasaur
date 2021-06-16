@@ -1,7 +1,9 @@
-
+*{
+  font-family: 'Cabin', sans-serif;
+}
 body{
   box-sizing: border-box;
-  background-color: #4095ff;
+  background-color: #004e7c;
 }
 
 html, body {
@@ -14,7 +16,7 @@ html, body {
   background-color: #009bd6;
   background-color: #3971f9;
   background-color: #0072ff;
-
+  background-color: #4095ff;
   
 }
 
@@ -25,6 +27,12 @@ html, body {
   overflow: hidden; 
 }
 
+img{
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.12);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.12);
+}
 
 h2{
   font-size: 3.5rem;
@@ -36,6 +44,10 @@ h2{
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.dh-10{
+  height: 10vh;
 }
 
 .dh-25{
@@ -54,15 +66,24 @@ h2{
   height: 100vh;
 }
 
+.mt-20{
+  margin-top: 100px;
+}
+
+.mt-30{
+  margin-top: 150px;
+}
+
+.mt-40{
+  margin-top: 200px;
+}
+
 .div-background{
   display: flex;
   justify-content: center;
   align-content: center;
   padding: 10px 0px;
   width: 50%;
-
-
-  
 }
 
 .img-fluid{
@@ -83,6 +104,12 @@ h2{
   color: rgba(255, 184, 0, 1);
 }
 
+.p2-size{
+  font-size: 3rem;
+  text-align: center;
+  color: rgba(255, 184, 0, 1);
+}
+
 .p-padding{
   padding: 0 2rem;
 }
@@ -93,4 +120,10 @@ h2{
 
 .footer-p{
   margin-left: 50px;
+}
+
+canvas{
+  height: 100vh;
+  width: 100vw;
+  display: block;
 }
