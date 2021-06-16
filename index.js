@@ -32,7 +32,7 @@ var waypoint = new Waypoint({
     });
     var duration = 15 * 1000;
     var animationEnd = Date.now() + duration;
-    var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+    var defaults = { startVelocity: 11, spread: 360, ticks: 60, zIndex: 0 };
     
     function randomInRange(min, max) {
       return Math.random() * (max - min) + min;
